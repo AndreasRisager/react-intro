@@ -1,0 +1,39 @@
+.heroSection {
+    display: grid;
+    & .hifi-logo {
+        align-self: center;
+        justify-self: center;
+        font-family: sans-serif;
+        color: #FFF;
+        &__name {
+            padding: 0.5em 0;
+            font-size: 0.85vw;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            letter-spacing: 2px;
+        }
+    }
+    & .hifi-box {
+        margin: 0 auto;
+        height: 10vw;
+        width: 10vw;
+        padding: 0 5% 5%;
+        border: 2px solid rgba(255, 255, 255, 0.8);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        &__name {
+            display: block;
+            font-size: 2vw;
+            line-height: 0.9em;
+            letter-spacing: 0.1em;
+            &:last-child {
+                letter-spacing: 0.22em;
+            }
+        }
+    }
+}
+.heroSection > * {
+    grid-area: 1/1/1/1;
+}
+

@@ -6,7 +6,6 @@ import PrimaryNavigation from "./PrimaryNavigation";
 function SiteHeader() {
     return (
         <header>
-            <Brand/>
             <PrimaryNavigation/>
         </header>
     );
