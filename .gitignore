@@ -1,14 +1,6 @@
-<<<<<<< HEAD
 .vscode
 node_modules
 .env
 dist
 .cache
 package-lock.json
-=======
-node_modules
-.env
-.vscode
-dist
-.cache
->>>>>>> 9f8053bfcd48908553541d15c874987641eea22e
