@@ -27,12 +27,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rts-cmk/react-intro.git"
+    "url": "git+https://github.com/AndreasRisager/react-intro.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rts-cmk/react-intro/issues"
+    "url": "https://github.com/AndreasRisager/react-intro/issues"
   },
-  "homepage": "https://github.com/rts-cmk/react-intro#readme"
+  "homepage": "https://github.com/AndreasRisager/react-intro#readme"
 }
